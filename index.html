@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Automation SOP</title>
+  <link rel="stylesheet" href="wizard.css">
+</head>
+
+<body>
+  <!-- Custom Header -->
+  <header>
+    <div class="profile-action-container">
+      <a href="https://github.com/WizardBrew" target="_blank" rel="noopener">
+        <img src="https://avatars.githubusercontent.com/u/91134716?v=4" alt="Profile Photo" />
+      </a>
+      <button id="notifyBtn">🔔 Notify New Post</button>
+    </div>
+    <h1>📘 Advance-Email-Excel2Outlook</h1>
+    <div class="bubble-container">
+      <a href="https://devopsenginer.in" class="bubble">🌐 devopsenginer.in</a>
+      <a href="https://github.com/WizardBrew" class="bubble">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/parvezmustak8004/" class="bubble">💼 LinkedIn</a>
+      <a href="mailto:wizardbrew@outlook.com" class="bubble">✉️ Email</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Workflow Overview -->
+    <section class="step">
+      <h2>📊 Workflow Overview</h2>
+      <pre>
+1. LOAD EXCEL FILE
+   - Reads: emails.xlsx
+   - Columns: Email | Subject | Body | AttachmentPath
+   - Each row = one email
+
+2. ITERATE THROUGH ROWS
+   - Sequential processing
+   - Skips invalid/missing email addresses
+
+3. CREATE OUTLOOK EMAIL
+   - Recipient, Subject, Body populated
+   - Attachment added if file exists
+
+4. PREVIEW vs AUTO-SEND
+   - First 3 emails → mail.Display()
+     * User manually clicks Send
+     * Console prompt:
+       > Press Enter to continue, or type 'cancel' to stop
+     * Cancel halts script immediately
+   - Remaining emails → mail.Send() auto-send
+
+5. LOGGING
+   - Console progress: ➡️ Processing row X/Y
+   - End report: ✅ Sent | ❌ Failed | ⏭️ Skipped
+   - CSV log generated: email_log_<timestamp>.csv
+      </pre>
+    </section>
+
+    <!-- Sample Images -->
+    <section class="pink-step">
+      <h2>🖼️ Sample Screenshots</h2>
+      <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
+        <img src="Git-ADV-EM-XL-OTLK\img1.png" alt="Sample Image 1"
+          style="max-width:45%; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+        <img src="Git-ADV-EM-XL-OTLK\img2.png" alt="Sample Image 2"
+          style="max-width:45%; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+        <img src="Git-ADV-EM-XL-OTLK\img3.png" alt="Sample Image 3"
+          style="max-width:45%; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+        <img src="Git-ADV-EM-XL-OTLK\img4.png" alt="Sample Image 4"
+          style="max-width:45%; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+      </div>
+    </section>
+
+    <!-- Behavior Details -->
+    <section class="pink-step">
+      <h2>⚙️ Behavior Details</h2>
+      <ul>
+        <li>Skipped Rows: Empty/NaN emails → safely skipped</li>
+        <li>Attachments: Added only if file exists</li>
+        <li>Preview Mode: First 3 emails open for manual review</li>
+        <li>Cancel Option: Stops script instantly</li>
+        <li>Auto-Send Mode: Remaining emails sent automatically</li>
+        <li>Error Handling: COM/Outlook errors logged as Failed</li>
+      </ul>
+    </section>
+
+    <!-- Safety & Reliability -->
+    <section class="step">
+      <h2>🛡️ Safety & Reliability</h2>
+      <ul>
+        <li>Prevents accidental bulk send (preview first 3)</li>
+        <li>Cancel option for user control</li>
+        <li>Comprehensive logs for audit & troubleshooting</li>
+      </ul>
+    </section>
+
+    <!-- Quick Start -->
+    <section class="pink-step">
+      <h2>🚀 Quick Start</h2>
+      <pre>$ python email_automation.py</pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>##############################################################</p>
+    <p># END OF SOP DOCUMENTATION #</p>
+    <p>##############################################################</p>
+  </footer>
+</body>
+
+</html>
