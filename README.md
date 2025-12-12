@@ -56,6 +56,10 @@
 
 
 ---
+#Excel File
+
+<img width="1418" height="996" alt="image" src="https://github.com/user-attachments/assets/647e69f3-06bc-4bed-bf0c-44810a26ee80" />
+
 
 --------------------------------------------------------------
 ⚙️ BEHAVIOR DETAILS
