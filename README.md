@@ -41,18 +41,21 @@
      email_log_<timestamp>.csv
      Columns: Status | Recipient/Row
 
-     <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/62e135c0-c824-430c-a75d-ed0122180df7" />
+     <img width="1920" height="1080" alt="img1" src="https://github.com/user-attachments/assets/8a3ff7f6-75ee-4d97-b300-bba0945465d1" />
+---
 
-     <img width="1911" height="1080" alt="image" src="https://github.com/user-attachments/assets/079d3570-5625-492c-b99f-3d57855673e8" />
+<img width="1911" height="1080" alt="img2" src="https://github.com/user-attachments/assets/89180bf7-1d1c-4b8e-ad65-9fde034bd9c0" />
 
-     <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2342c7e-7ff2-4202-a069-9cbfe1de99d8" />
+---
 
-     #Log Genration.
-     <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c46ac011-449f-4bf9-89ba-14c9d610bfbb" />
+<img width="1920" height="1080" alt="img3" src="https://github.com/user-attachments/assets/dc6e62da-b29b-4341-bcbc-cbfe95ea48bf" />
+
+---
+
+<img width="1920" height="1080" alt="img4" src="https://github.com/user-attachments/assets/32b0c29c-7926-4688-aaea-0edb147ccf7c" />
 
 
-
-
+---
 
 --------------------------------------------------------------
 ⚙️ BEHAVIOR DETAILS
