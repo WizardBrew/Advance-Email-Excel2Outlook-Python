@@ -1,7 +1,7 @@
 ## Website Link> https://wizardbrew.github.io/Advance-Email-Excel2Outlook-Python/
 
-#Advance-Email-Excel2Outlook
-
+#Advance-Email-Excel2Outlook 
+# VIdeo Guide at the end.
 ##############################################################
 #                  EMAIL AUTOMATION SOP                      #
 #        Python + Pandas + Outlook COM Integration           #
@@ -82,6 +82,10 @@
 🚀 QUICK START
 --------------------------------------------------------------
 $ python email_automation.py
+
+
+[![Watch the video](https://img.youtube.com/vi/PXqBLC794Dk/0.jpg)](https://youtu.be/PXqBLC794Dk?si=e7yBiHeKd1LSBRuO)
+
 
 ##############################################################
 #                  END OF SOP DOCUMENTATION                  #
